@@ -10,8 +10,8 @@ int main() {
     std::cout << "Введите шаг: ";
     std::cin >> step;
     for (double x = start; x <= end; x += step) {
-    double y = sin(x);
-    std::cout << x << " | " << y << std::endl;
+        double y = sin(x);
+        std::cout << x << " | " << y << std::endl;
     }
 return 0;
 }
